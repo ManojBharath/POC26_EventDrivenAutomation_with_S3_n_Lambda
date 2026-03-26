@@ -1,6 +1,7 @@
 # POC26_EventDrivenAutomation_with_S3_n_Lambda
 
 # Architecture Flow (What you are building)
+
 Upload File → S3 Bucket → Event Notification → Lambda → CloudWatch Logs
   - S3 detects file upload
   - Triggers Lambda
