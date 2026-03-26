@@ -1,5 +1,6 @@
 import json
 
+
 def lambda_handler(event, context):
     print("Full Event:")
     print(json.dumps(event, indent=2))
